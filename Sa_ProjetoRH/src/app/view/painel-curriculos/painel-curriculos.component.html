@@ -1,0 +1,19 @@
+<h2>Cadastrar Curriculo</h2>
+<form action="">
+    <label>ID</label>
+    <input type="text" name="id" [(ngModel)]="curriculo.id"/> <br>
+
+    <label>Nome</label>
+    <input type="text" name="nome" [(ngModel)]="curriculo.nome"/> <br>
+
+    <label>Idade</label>
+    <input type="text" name="idade" [(ngModel)]="curriculo.idade"/> <br>
+
+    <label>Formação</label>
+    <input type="text" name="formacao" [(ngModel)]="curriculo.formacao"/> <br>
+
+    <label>Descrição</label>
+    <input type="text" name="descricao" [(ngModel)]="curriculo.descricao"/> <br>
+
+    <button type="button" (click)="cadastrarCurriculo()">Cadastrar</button>
+</form>
